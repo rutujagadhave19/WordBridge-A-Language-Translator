@@ -18,7 +18,7 @@ function App() {
     try {
       setLoading(true);
       const res = await axios.post(
-        `${TRANSLATE_API_END_POINT}`,
+        `https://wordbridge-a-language-translator-1.onrender.com`,
         { source, target, text },
         {
           headers: {
